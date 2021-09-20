@@ -1,0 +1,36 @@
+class Car
+{
+void CarFeatures(int noOfDoor, int noOfSeats, int stepnee)
+{
+System.out.println("I am a car");
+}
+}
+class CarUtilies extends Car
+{
+void CarFeatures(String musicsystem, String radio, String bumper, String numberplate)
+{
+System.out.println("I am a Car with some car utilities");
+}
+}
+class CarInterior extends Car
+{
+void CarFeatures(String seatcover, String seatcovercolor)
+{
+System.out.println("I am a Car with some car Interior ");
+}
+}
+public class CarApp
+{
+public static void main(String args[])
+{
+Car c=new Car();
+CarUtilities cu=new CarUtilities();
+CarInterior ci=new CarInterior();
+c.CarFeatures(4,6,1);
+cu.CarFeatures(midbass, AM, ABS, whitebackground);
+ci.Carfeatures(Fabric seat cover, pink);
+}
+}
+
+
+
